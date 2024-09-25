@@ -39,10 +39,14 @@ body {
 }
 
 button {
-  background: white;
-  border: 1px solid #eee;
-  display: block;
-  padding: 8px 24px;
-  margin-left: 117px;
-  font-size: medium;
-}
+   background: white;
+   border: 1px solid #eee;
+   display: block;
+   padding: 8px 24px;
+
+   /* margin-left: 117px; */ /* What I had that was close but the solution had a better way... */
+   
+   margin: 0   auto; /*The better solution. This allows for more dynamic changes without having to adjust margin again for centering*/
+   
+   /* font-size: xx-large; */
+ }
